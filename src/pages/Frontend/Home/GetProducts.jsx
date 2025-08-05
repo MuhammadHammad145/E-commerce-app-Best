@@ -184,7 +184,7 @@ const GetProducts = () => {
 
                                         style={{
                                             width: "100%",
-                                            height: "250px",
+                                            height: "400px",
                                             objectFit: "cover",
                                             borderTopLeftRadius: '8px',
                                             borderTopRightRadius: '8px'
@@ -196,7 +196,7 @@ const GetProducts = () => {
                                         <FiHeart className='z-1 fw-lighter' size={18} color="black" style={{ cursor: 'pointer' }} />
                                         <FiEye className="z-1 fw-lighter" size={18} color="black" onClick={() => navigate(`product/${product.id}`)} style={{ cursor: 'pointer' }} />
                                     </div>
-                                    <div className="position-absolute translate-middle start-50" style={{ top: '222px', gap: "10px" }}>
+                                    <div className="position-absolute translate-middle start-50" style={{ top: '372px', gap: "10px" }}>
                                         <button className='text-dark py-2 px-2' onClick={() => addToCart(product)} style={{ backgroundColor: "white", border: "none", cursor: "pointer" }}><span><FiShoppingCart title="Cart " className='me-2' size={12} />
                                         </span> Add To Cart</button>
                                     </div>
