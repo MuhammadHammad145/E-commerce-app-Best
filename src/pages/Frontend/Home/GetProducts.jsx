@@ -175,7 +175,7 @@ const GetProducts = () => {
             <Slider ref={sliderRef} {...settings}>
                 {products.map((product, index) => (
                     <div key={index} className="p-2">
-                        <div className="card shadow-sm border rounded position-relative" style={{ height: "400px" }}>
+                        <div className="card shadow-sm border rounded position-relative" style={{ height:  "550px" }}>
                             {product.imageURL &&
                                 <>
                                     <Image
